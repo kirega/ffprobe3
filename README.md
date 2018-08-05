@@ -1,7 +1,9 @@
 ffprobe python module
 =====================
 
-A wrapper around the ffprobe command to extract metadata from media files.
+A wrapper around the ffprobe command to extract metadata from media files. 
+You will require to have ffmpeg/ffprobe installed in your system, you can easily get ffmpeg by `sudo apt install ffmpeg` before using this,
+due to subprocess calls for `ffprobe`.
 
 Usage::
 
